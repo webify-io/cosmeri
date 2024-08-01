@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cosmeri.</title>
+
+		<!-- ============================= CSS =============================== -->
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!-- ======================= FONT AWESOME CDN ======================== -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		/>
+		<!-- ========================== SWIPER CSS =========================== -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" />
+		<!-- Link Swiper's CSS -->
+		<!-- <link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/> -->
+	</head>
+
+	<body onload="todayDate()">
+		<header class="header" id="header">
+			<div class="navbar">
+				<div class="logo">
+					<a href="index.html">
+						<img src="assets/logo/logo-w668.png" alt="Cosmeri Logo" />
+					</a>
+				</div>
+				<nav class="nav-menu" id="nav-menu">
+					<a href="index.html" class="nav-link active-link">home</a>
+					<a href="index.html#about" class="nav-link">about</a>
+					<a href="index.html#products" class="nav-link">products</a>
+					<a href="index.html#services" class="nav-link">services</a>
+					<a href="index.html#package" class="nav-link">packages</a>
+					<a href="#gallery" class="nav-link">gallery</a>
+					<a href="#contact" class="nav-link">contact</a>
+				</nav>
+
+				<div class="fa-solid fa-bars" id="menu-btn"></div>
+				<!-- <div class="nav-toggle" id="nav-toggle">
+					<i class="fa-solid fa-bars"></i>
+				</div> -->
+			</div>
+		</header>
+
+		<!-- Start About Section -->
+		<section class="catalogue" id="catalogue">
+			<div class="container">
+				<div class="section-title">
+					<h1>Our Catalogue</h1>
+					<span> <span class="catalogue-header">Ri</span> Aesthetics.</span>
+				</div>
+				<div class="catalogue-detail">
+					<div class="catalogue-detail-content">
+						<div class="about-img">
+							<img src="assets/gallery/gallery-6_275px.png" alt="" />
+						</div>
+
+						<div class="catalogue-table">
+							<table>
+								<tr>
+									<th colspan="2">Our Top Picks</th>
+								</tr>
+								<tr class="row-bold">
+									<td>Microneedling <span>incl LED light therapy</span></td>
+									<td>R500</td>
+								</tr>
+								<tr>
+									<td colspan="2" class="row-details">
+										For treatment of acne scars, surgical scars, pigmentation,
+										lines and wrinkles, and textured skin and stimulation of
+										collagen
+									</td>
+								</tr>
+
+								<tr class="row-spacing">
+									<td>----</td>
+								</tr>
+
+								<tr class="row-bold">
+									<td>
+										Plasma fibroblast skin tightening <span>(per area)</span>
+									</td>
+									<td>R300</td>
+								</tr>
+								<tr>
+									<td colspan="2" class="row-details">
+										Plasma energy delivered into the skin which elimantes lines,
+										wrinkles and excess skin
+									</td>
+								</tr>
+
+								<tr class="row-spacing">
+									<td>----</td>
+								</tr>
+
+								<tr class="row-bold">
+									<td>
+										Plasma fractional skin tightening <span>(Full Face)</span>
+									</td>
+									<td>R450</td>
+								</tr>
+
+								<tr class="row-spacing">
+									<td>----</td>
+								</tr>
+
+								<tr>
+									<th colspan="2">Chemical Peels</th>
+								</tr>
+								<tr class="row-bold">
+									<td>
+										AHA or TCA <span>incl facials and LED light treatment</span>
+									</td>
+									<td>R290</td>
+								</tr>
+								<tr class="row-bold">
+									<td>Peel Only</td>
+									<td>R180</td>
+								</tr>
+
+								<tr class="row-spacing">
+									<td>----</td>
+								</tr>
+
+								<tr>
+									<th colspan="2">Facials</th>
+								</tr>
+								<tr class="row-bold">
+									<td>Facials (60 to 70 mins)</td>
+									<td>R250</td>
+								</tr>
+								<tr>
+									<td colspan="1">
+										<ul>
+											<li>Hollistic hydrating facial</li>
+											<li>Holistic deep cleanse facial</li>
+											<li>Holistic brightening facial</li>
+											<li>Microdermabrasion glow facial</li>
+											<li>Microcurrent / Galvanic facial</li>
+											<li>High frequency facial</li>
+											<li>Radiofrequency face lift</li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2" class="row-details">
+										Each facial includes LED light therapy and is customised
+										based on clients needs and goals.
+									</td>
+								</tr>
+
+								<tr class="row-spacing">
+									<td>----</td>
+								</tr>
+
+								<tr class="row-bold">
+									<td>Professional Makeup <span>(Face beat)</span></td>
+									<td>R350</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+
+					<a
+						download="Ri Aesthetics Catalogue"
+						href="assets/catalogue/Ri Austhetics Catalogue.jpg"
+						class="btn"
+						>Download Our Catalogue
+						<i class="fa-solid fa-download"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- End About Section -->
+
+		<!-- Start Gallery Section -->
+		<section class="gallery" id="gallery">
+			<div class="section-title">
+				<h1>Gallery.</h1>
+				<span>view our gallery</span>
+			</div>
+
+			<!-- Swiper -->
+			<div
+				class="swiper mySwiperGallery"
+				style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+			>
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="assets/gallery/gallery-2_275px.png" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="assets/gallery/gallery-3_275px.png" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="assets/gallery/gallery-4_275px.png" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="assets/gallery/gallery-5_275px.png" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="assets/gallery/gallery-2_275px.png" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="assets/gallery/gallery-3_275px.png" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="assets/gallery/gallery-4_275px.png" alt="" />
+					</div>
+					<div class="swiper-slide">
+						<img src="assets/gallery/gallery-5_275px.png" alt="" />
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+		<!-- End Gallery Section -->
+
+		<!-- Start Contact Section -->
+		<section class="contact" id="contact">
+			<div class="contact-list">
+				<div class="contact-data">
+					<h1>
+						<a href="index.html">
+							<img src="assets/logo/logo-w668.png" alt="" />
+						</a>
+					</h1>
+					<div class="contact-data-social">
+						<a
+							href="https://www.facebook.com/profile.php?id=61559336909535"
+							target="_blank"
+							><i class="fa-brands fa-facebook"></i
+						></a>
+						<a href=""><i class="fa-brands fa-instagram"></i></a>
+						<a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+					</div>
+				</div>
+				<div class="contact-data">
+					<h2>address</h2>
+					<p>
+						880 Almondrock Avenue <br />
+						Strubensvalley - Roodepoort <br />
+						Jhb
+					</p>
+				</div>
+				<div class="contact-data">
+					<h2>We Are Open</h2>
+					<p>
+						Monday to Friday <br />
+						From 9pm - 5pm
+					</p>
+				</div>
+				<div class="contact-data">
+					<h2>Contact</h2>
+					<a href="tel:0745265599"> <p>(+27) 79 662 6782</p></a>
+					<p>cosmeri@info.co.za</p>
+				</div>
+			</div>
+		</section>
+		<!-- End Contact Section -->
+
+		<!-- Start Footer Section -->
+		<footer class="footer">
+			<div class="credit">
+				<p>
+					Copyright<sup>&copy;</sup> <span id="date"></span> | All Rights
+					Reserved
+				</p>
+				<span>
+					Developed by
+					<a
+						href="https://webify-io.github.io/webify/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Webify<sup>&reg;</sup>
+					</a>
+				</span>
+			</div>
+		</footer>
+		<!-- End Footer Section -->
+
+		<!-- ========================== SCROLL TOP =========================== -->
+		<a href="#" class="scroll-up" id="scroll-up">
+			<i class="fa-solid fa-arrow-up scrollup_icon"></i>
+		</a>
+
+		<!-- ============================ MAIN JS ============================ ---->
+		<script src="js/main.js"></script>
+		<!-- ============================ DATE JS ============================ -->
+		<script src="js/todayDate.js"></script>
+
+		<!-- Swiper JS -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+		<!-- Initialize Swiper: Gallery -->
+		<script>
+			var swiper = new Swiper('.mySwiperGallery', {
+				spaceBetween: 10,
+				centeredSlides: true,
+				loop: true,
+				slidesPerView: 3,
+
+				autoplay: {
+					delay: 2500,
+					disableOnInteraction: false,
+				},
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+				breakpoints: {
+					0: {
+						slidesPerView: 1,
+					},
+					560: {
+						slidesPerView: 2,
+					},
+					920: {
+						slidesPerView: 3,
+					},
+				},
+				// Dynamically set slidesPerView based on window width
+				//slidesPerView: window.innerWidth < 700 ? 2 : 'auto',
+			});
+			swiper.update();
+		</script>
+	</body>
+</html>
