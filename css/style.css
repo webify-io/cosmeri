@@ -5,7 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 :root {
 	--header-height: 5rem;
-	--header-height-sm: 4.5rem;
 
 	--my-gradient: linear-gradient(90deg, silver, white);
 	--my-gradient-nth-child: linear-gradient(90deg, white, silver);
@@ -1050,9 +1049,6 @@ li {
 @media (max-width: 920px) {
 	.logo img {
 		width: 9rem;
-	}
-	.header {
-		height: var(--header-height-sm);
 	}
 	.nav-menu {
 		position: absolute;
