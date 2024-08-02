@@ -109,7 +109,7 @@ function scrollUp() {
 	// Add an event listener for the scroll event
 	window.addEventListener('scroll', () => {
 		// Check if the scroll position is greater than or equal to 560 viewport height
-		if (window.scrollY >= 200) {
+		if (window.scrollY >= 90) {
 			scrollUp.classList.add('show-scroll');
 			// Hide the element after 3 seconds (adjust the delay as needed)
 			/* setTimeout(() => {
