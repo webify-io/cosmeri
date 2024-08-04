@@ -960,7 +960,7 @@ form textarea {
 .contact-form form input:focus,
 form textarea:focus {
 	border: 1px solid var(--first-color);
-	background-color: #d3d3d3;
+	background-color: #e0e0e0;
 }
 
 #form-btn:focus {
