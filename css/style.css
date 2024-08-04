@@ -1283,6 +1283,9 @@ li {
 	.gallery {
 		padding: 5rem 0;
 	}
+	.gallery-catalogue {
+		padding: 5rem 0 0;
+	}
 	.testimonials {
 		padding: 5rem 0;
 	}
