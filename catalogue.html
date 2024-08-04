@@ -223,6 +223,45 @@
 
 		<!-- Start Contact Section -->
 		<section class="contact" id="contact">
+			<div class="section-title">
+				<h1>Contact Us.</h1>
+				<span>get in touch or inquire about an appointment or treatment</span>
+			</div>
+			<div class="contact-form" id="contact-form">
+				<form
+					name="contact"
+					action="success.html"
+					method="POST"
+					netlify-honeypot="bot-field"
+					data-netlify="true"
+				>
+					<!-- Honeypot -->
+					<input name="bot-field" style="display: none" />
+					<!-- <input type="text" name="_honey" style="display: none;"> -->
+
+					<!-- Success Page -->
+					<!-- <input type="hidden" name="_next" value="https://webify-io.github.io/webify/success.html"> -->
+
+					<input type="text" name="name" placeholder="Name" required />
+					<input type="email" name="email" placeholder="Email" required />
+
+					<textarea
+						name="message"
+						id=""
+						cols="40"
+						rows="10"
+						placeholder="Message"
+						required
+					></textarea>
+					<input
+						id="form-btn"
+						type="submit"
+						value="Submit"
+						class="contact-btn"
+					/>
+				</form>
+			</div>
+
 			<div class="contact-list">
 				<div class="contact-data">
 					<h1>
