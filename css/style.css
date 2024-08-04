@@ -964,11 +964,6 @@ form textarea:focus {
 	background-color: #e0e0e0;
 }
 
-#form-btn:focus {
-	/* border: none; */
-	box-shadow: rgba(0, 0, 0, 0.25);
-}
-
 .contact-form textarea {
 	resize: none;
 	height: 15rem;
