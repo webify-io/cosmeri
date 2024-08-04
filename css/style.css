@@ -55,7 +55,7 @@
 * {
 	/* box-sizing: border-box; */
 	margin: 0;
-	padding: 0;
+	/* padding: 0; */
 	text-decoration: none;
 	list-style: none;
 	outline: none;
@@ -107,13 +107,6 @@ h4,
 h5,
 h6 {
 	overflow-wrap: break-word;
-}
-/*
-  8. Create a root stacking context
-*/
-#root,
-#__next {
-	isolation: isolate;
 }
 
 /* ********** Buttons ********** */
@@ -606,6 +599,7 @@ h6 {
 	width: 90px;
 	border-radius: 50%;
 	margin-bottom: 1rem;
+	margin: auto;
 }
 .services-content-description .box .inner {
 	font-size: var(--h3-font-size);
@@ -881,6 +875,7 @@ h6 {
 }
 .contact-data img {
 	width: 9rem;
+	margin: auto;
 }
 .contact-data-social {
 	margin-top: 1rem;
@@ -976,7 +971,7 @@ h6 {
 /* ========== Start Catalogue Section ========== */
 .catalogue {
 	width: 100%;
-	padding: 7rem 0;
+	padding: 7rem 0 0;
 	/* background-image: url(/img/arabesque-bg-btm-left.png);
 	background-repeat: no-repeat;
 	background-position: bottom left;
