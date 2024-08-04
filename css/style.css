@@ -945,13 +945,14 @@ form textarea {
 	/* width: 80%; */
 	/* padding: 1.2rem 1rem; */
 	padding: 1rem 1.6rem;
-	background: var(--clr-modal-background);
+	/* background: var(--main-color); */
 	/* background: #1d1e22; */
 	/* background: #555557; */
-	color: #9fa4ba;
+	color: var(--black-color);
+	/* color: #9fa4ba; */
 	/* color: #000; */
-	font-size: var(--fs-body-p);
-	font-weight: 300;
+	/* font-size: var(--fs-body-p);
+	font-weight: 300; */
 	/* font-weight: 600; */
 	/* margin-bottom: 0.275rem; */
 	/* border-radius: 5px; */
