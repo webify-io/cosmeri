@@ -1133,6 +1133,9 @@ li {
 .catalogue-detail a {
 	margin: 1rem auto;
 }
+.gallery-catalogue {
+	padding: 7rem 0 0;
+}
 /* ========== End Catalogue Section ========== */
 
 /* ========== SCROLL UP ========== */
@@ -1398,7 +1401,7 @@ li {
 	} */
 	.contact-form form {
 		width: 100%;
-		padding: 2rem 1rem;
+		padding: 2rem 1rem 7rem;
 		gap: 0.5rem;
 	}
 	.contact .section-title span {
