@@ -43,29 +43,80 @@
 
 	--h1-font-weight: 600;
 }
-
-* {
+/* **************** CSS Reset ****************** */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
+}
+* {
+	/* box-sizing: border-box; */
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
 	list-style: none;
 	outline: none;
 	border: none;
-	scroll-behavior: smooth;
 }
 
-/* html {
+html {
 	scroll-behavior: smooth;
-} */
-
+}
+/*
+  Typographic tweaks!
+  antialiased. Improve text rendering
+*/
 body {
 	background-color: var(--white-color);
 	font-size: var(--normal-font-size);
 	font-family: var(--font-body);
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
+	-webkit-font-smoothing: antialiased;
 }
-/* Buttons */
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+/*
+  8. Create a root stacking context
+*/
+#root,
+#__next {
+	isolation: isolate;
+}
+
+/* ********** Buttons ********** */
 .btn {
 	width: 240px;
 	display: flex;
