@@ -677,7 +677,7 @@ h6 {
 .card-title h3 {
 	font-weight: 700;
 	font-size: var(--h3-font-size);
-	line-height: 1.5rem;
+	line-height: 1.8rem;
 	color: var(--black-color);
 }
 /* .card-items {
@@ -1289,6 +1289,14 @@ li {
 	.package {
 		padding: 5rem 0;
 	}
+
+	.package-cards {
+		gap: 1rem;
+		margin-top: 1rem;
+	}
+	.card {
+		margin: 1rem;
+	}
 	.card-title h2 {
 		font-size: var(--h2-font-size);
 	}
@@ -1392,13 +1400,6 @@ li {
 		width: 55px;
 		height: 21%;
 	} */
-	.package-cards {
-		gap: 2rem;
-		margin-top: 1rem;
-	}
-	.card {
-		margin: 0 1rem;
-	}
 	.card:hover {
 		transform: scale(1);
 	}
