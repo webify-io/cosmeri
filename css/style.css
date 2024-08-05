@@ -713,7 +713,7 @@ h6 {
 }
 .card-title,
 .card-items {
-	flex: 0 0 55px;
+	flex: 0 0 50px;
 }
 .card-btn {
 	margin-top: auto; /* Push .card-btn to the bottom */
