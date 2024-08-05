@@ -1276,8 +1276,15 @@ li {
 	.products {
 		padding: 5rem 0;
 	}
+	.all-products {
+		margin-top: 1rem;
+	}
 	.services {
 		padding: 5rem 0;
+	}
+	.services-content-description {
+		grid-template-columns: repeat(2, 1fr);
+		padding: 0 1rem;
 	}
 	.package {
 		padding: 5rem 0;
@@ -1337,9 +1344,6 @@ li {
 		font-size: var(--small-font-size);
 	}
 
-	.services-content-description {
-		grid-template-columns: repeat(2, 1fr);
-	}
 	/* 	.all-products {
 		width: 820px;
 		margin-top: 3rem;
@@ -1390,6 +1394,7 @@ li {
 	} */
 	.package-cards {
 		gap: 2rem;
+		margin-top: 1rem;
 	}
 	.card {
 		margin: 0 1rem;
