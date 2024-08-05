@@ -1389,6 +1389,11 @@ li {
 	.home .home-content {
 		padding: 0 2rem;
 	}
+	.services-content-description .box .inner {
+		font-size: var(--normal-font-size);
+		font-weight: 800;
+		padding: 5px;
+	}
 	/* .services-content-description {
 		grid-template-columns: unset;
 	} */
