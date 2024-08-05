@@ -656,11 +656,14 @@ h6 {
 	justify-content: center;
 }
 .card {
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
 	background-color: var(--white-color);
 	box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.25);
 	border-radius: 1rem;
 	padding: 1rem;
-	margin: 10px auto;
+	margin: 10px 1rem;
 	transition: all 0.4s ease-in-out;
 }
 .card:hover {
@@ -668,11 +671,11 @@ h6 {
 }
 .card-title {
 	text-align: center;
-	margin-bottom: 1.5rem;
+	margin-bottom: 0.5rem;
 }
 .card-title h2 {
 	font-weight: bold;
-	font-size: var(--h1-font-size);
+	font-size: var(--h2-font-size);
 	line-height: 2.2rem;
 	color: var(--black-color);
 }
@@ -704,9 +707,15 @@ h6 {
 .item .check-icon {
 	color: var(--first-color);
 }
-.card-items button,
-.card-items a {
+.card a {
 	margin: 1rem auto 0;
+}
+.card-title,
+.card-items {
+	flex: 0 0 70px;
+}
+.card-btn {
+	margin-top: auto; /* Push .card-btn to the bottom */
 }
 
 /* End Package Section */
