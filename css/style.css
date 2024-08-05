@@ -658,7 +658,7 @@ h6 {
 .card {
 	display: flex;
 	/* flex-grow: 1; */
-	width: 21em;
+	width: 17em;
 	flex-direction: column;
 	background-color: var(--white-color);
 	box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.25);
@@ -688,6 +688,7 @@ h6 {
 	align-items: center;
 }
 .item p {
+	font-size: var(--small-font-size);
 	font-weight: 550;
 	line-height: 1.5rem;
 	color: var(--first-color);
@@ -699,7 +700,7 @@ h6 {
 }
 .item .check-icon,
 .item .x-icon {
-	font-size: var(--h3-font-size);
+	font-size: var(--small-font-size);
 }
 .item .x-icon,
 .item .not {
@@ -1292,12 +1293,12 @@ li {
 
 	.package-cards {
 		gap: 2.5rem;
-		margin: 1.5rem 1rem;
-		/* margin-top: 1rem; */
+		margin-top: 1.5rem;
+		/* margin: 1.5rem 1rem; */
 	}
-	.card-title h2 {
+	/* .card-title h2 {
 		font-size: var(--h2-font-size);
-	}
+	} */
 	.gallery {
 		padding: 5rem 0;
 	}
@@ -1398,9 +1399,9 @@ li {
 		width: 55px;
 		height: 21%;
 	} */
-	.card:hover {
+	/* .card:hover {
 		transform: scale(1);
-	}
+	} */
 	.gallery .swiper {
 		width: 75%;
 	}
