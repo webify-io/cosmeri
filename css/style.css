@@ -1392,9 +1392,9 @@ li {
 	.services-content-description {
 		padding: 1rem 0;
 	}
-	.services-content-description .box {
+	/* .services-content-description .box {
 		padding: 1rem;
-	}
+	} */
 	.services-content-description .box .inner {
 		font-size: var(--normal-font-size);
 		font-weight: 600;
