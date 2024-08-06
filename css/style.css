@@ -1250,7 +1250,7 @@ li {
 		font-size: 1.95rem;
 	}
 	.about {
-		padding: 5rem 0;
+		padding: 5.5rem 0;
 	}
 	.about-detail-content {
 		grid-template-columns: unset;
@@ -1275,20 +1275,20 @@ li {
 		transform: translateX(-50%);
 	}
 	.products {
-		padding: 5rem 0;
+		padding: 5.5rem 0;
 	}
 	.all-products {
 		margin-top: 1rem;
 	}
 	.services {
-		padding: 5rem 0;
+		padding: 5.5rem 0;
 	}
 	.services-content-description {
 		grid-template-columns: repeat(2, 1fr);
 		padding: 0 1rem;
 	}
 	.package {
-		padding: 5rem 0;
+		padding: 5.5rem 0;
 	}
 
 	.package-cards {
@@ -1300,23 +1300,23 @@ li {
 		font-size: var(--h2-font-size);
 	} */
 	.gallery {
-		padding: 5rem 0;
+		padding: 5.5rem 0;
 	}
 	.gallery-catalogue {
-		padding: 5rem 0 0;
+		padding: 5.5rem 0 0;
 	}
 	.testimonials {
 		padding: 5rem 0;
 	}
 	.contact {
-		padding: 5rem 0;
+		padding: 5.5rem 0;
 	}
 	.contact-data {
 		padding-top: 1rem;
 	}
 
 	.catalogue {
-		padding: 5rem 0 0;
+		padding: 5.5rem 0 0;
 	}
 	.catalogue-detail {
 		padding: 1rem;
@@ -1389,9 +1389,15 @@ li {
 	.home .home-content {
 		padding: 0 2rem;
 	}
+	.services-content-description {
+		padding: 1rem 0;
+	}
+	.services-content-description .box {
+		padding: 1rem;
+	}
 	.services-content-description .box .inner {
 		font-size: var(--normal-font-size);
-		font-weight: 800;
+		font-weight: 600;
 		padding: 5px;
 	}
 	/* .services-content-description {
