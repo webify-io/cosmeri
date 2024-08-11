@@ -254,7 +254,7 @@ h6 {
 }
 /* ========= Active Link ========= */
 .active-link {
-	color: rgba(191, 191, 191, 0.9);
+	color: rgba(139, 134, 134, 0.9);
 	/* color: var(--theme-color); */
 }
 /* .nav-menu a:active {
@@ -329,6 +329,9 @@ h6 {
 	letter-spacing: 2px; */
 	color: var(--first-color);
 	margin-bottom: 1.5rem;
+}
+.break-hero {
+	display: none;
 }
 .home-content p {
 	font-weight: 400;
@@ -610,7 +613,8 @@ h6 {
 	padding: 20px;
 }
 .services-content-description .box .inner img {
-	width: 90px;
+	/* width: 90px; */
+	width: 5rem;
 	border-radius: 50%;
 	margin-bottom: 1rem;
 	margin: auto;
@@ -1207,25 +1211,24 @@ li {
 		width: 9rem;
 	} */
 	.nav-menu {
-		position: absolute;
+		position: fixed;
 		top: 0;
 		right: -100%;
 		width: 60%;
-		height: 100vh;
+		height: 100%;
 		/* background-color: var(--white-color); */
 		background-color: hsla(0, 0%, 96%, 0.2);
 		backdrop-filter: blur(16px);
 		-webkit-backdrop-filter: blur(16px);
-		font-size: var(--h2-font-size);
-		text-align: center;
-		text-transform: capitalize;
+		/* font-size: var(--h2-font-size); */
+		/* text-align: center; */
 		/* padding-top: var(--header-height); */
 		padding: 6rem 3rem 0;
-		box-sizing: 0 0 5px rgba(0, 0, 0, 0.4);
+		/* box-sizing: 0 0 5px rgba(0, 0, 0, 0.4); */
 		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 		transition: right 0.4s;
 
-		display: inline-block;
+		/* display: inline-block; */
 	}
 	/* ========== Show Menu ========== */
 	/* .show-menu {
@@ -1235,12 +1238,15 @@ li {
 		right: 0;
 		/* width: 60%; */
 	}
-	.nav-menu a {
-		display: block;
-		padding: 1.2rem 0;
+	.nav-list {
+		display: flex;
+		flex-direction: column;
+		row-gap: 2.5rem;
 	}
-	.nav-link {
-		font-size: var(--h3-font-size);
+	.nav-menu a {
+		/* display: block;
+		padding: 1.2rem 0; */
+		text-transform: uppercase;
 	}
 	#menu-btn {
 		display: initial;
@@ -1249,10 +1255,8 @@ li {
 		display: block;
 	} */
 
-	.home-content h1 {
-		/* font-family: var(--font-cursive); */
-		/* font-size: 2rem; */
-		/* line-height: 3.5rem; */
+	.break-hero {
+		display: initial;
 	}
 	.home .home-img img {
 		display: none;
@@ -1398,6 +1402,11 @@ li {
 	} */
 }
 @media (max-width: 560px) {
+	.home-content h1 {
+		/* font-family: var(--font-cursive); */
+		font-size: var(--bigger-font-size);
+		/* line-height: 3.5rem; */
+	}
 	/* Buttons */
 	.btn {
 		border: 2px solid var(--first-color);
