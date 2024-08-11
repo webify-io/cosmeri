@@ -58,7 +58,7 @@
 		--h3-font-size: 1rem;
 		--normal-font-size: 0.938rem;
 		--small-font-size: 0.813rem;
-		--smallest-font-size: 0.8rem;
+		--smallest-font-size: 0.75rem;
 	}
 }
 
@@ -227,10 +227,10 @@ h6 {
 .nav-link {
 	font-size: var(--normal-font-size);
 	color: var(--black-color);
-	font-weight: bold;
+	font-weight: bolder;
 	text-transform: capitalize;
 	position: relative;
-	transition: all 0.4s ease;
+	transition: all 0.4s ease-in-out;
 }
 .nav-link::before {
 	content: '';
@@ -1238,9 +1238,8 @@ li {
 		flex-direction: column;
 		row-gap: 2.5rem;
 	}
-	.nav-menu a {
-		/* display: block;
-		padding: 1.2rem 0; */
+	.nav-link {
+		font-weight: var(--h1-font-weight);
 		text-transform: uppercase;
 	}
 	#menu-btn {
