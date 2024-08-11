@@ -1194,11 +1194,14 @@ li {
 	} */
 	.nav-menu {
 		position: absolute;
-		top: 0;
+		top: 5rem;
 		right: 0;
 		width: 0;
 		height: 100vh;
-		background-color: var(--white-color);
+		/* background-color: var(--white-color); */
+		background-color: hsla(0, 0%, 96%, 0.2);
+		backdrop-filter: blur(16px);
+		-webkit-backdrop-filter: blur(16px);
 		font-size: var(--h2-font-size);
 		text-align: center;
 		text-transform: capitalize;
