@@ -1150,7 +1150,7 @@ li {
 	right: 1rem;
 	bottom: -20%;
 	background-color: var(--first-color);
-	opacity: 0.4;
+	opacity: 0.2;
 	padding: 0.8rem 1rem;
 	border-radius: 45%;
 	z-index: 10;
@@ -1159,10 +1159,10 @@ li {
 
 .scroll-up:hover {
 	/* background-color: var(--first-color-alt); */
-	opacity: 0.8;
+	opacity: 0.4;
 }
 
-.scrollup_icon {
+.scrollup-icon {
 	font-size: 1rem;
 	color: #fff;
 }
@@ -1444,7 +1444,7 @@ li {
 		width: 7.5rem;
 	}
 	.scroll-up:hover {
-		opacity: 0.4;
+		opacity: 0.2;
 	}
 }
 /* @media (max-width: 415px) {
