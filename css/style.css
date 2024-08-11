@@ -249,6 +249,7 @@ h6 {
 /* ========= Active Link ========= */
 .active-link {
 	color: rgba(139, 134, 134, 0.9);
+	font-weight: bold;
 	/* color: var(--theme-color); */
 }
 /* .nav-menu a:active {
