@@ -1195,8 +1195,8 @@ li {
 	.nav-menu {
 		position: absolute;
 		top: 0;
-		right: 0;
-		width: 0;
+		right: -100%;
+		width: 60%;
 		height: 100vh;
 		/* background-color: var(--white-color); */
 		background-color: hsla(0, 0%, 96%, 0.2);
@@ -1217,7 +1217,8 @@ li {
 		width: 60%;
 	} */
 	.nav-menu.active {
-		width: 60%;
+		right: 0;
+		/* width: 60%; */
 	}
 	.nav-menu a {
 		display: block;
