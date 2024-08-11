@@ -43,6 +43,20 @@
 
 	--h1-font-weight: 600;
 }
+
+/*========== Responsive typography ==========*/
+@media screen and (max-width: 560px) {
+	:root {
+		--biggest-font-size: 3rem;
+		--bigger-font-size: 2rem;
+		--h1-font-size: 1.5rem;
+		--h2-font-size: 1.25rem;
+		--h3-font-size: 1rem;
+		--normal-font-size: 0.938rem;
+		--small-font-size: 0.813rem;
+	}
+}
+
 /* **************** CSS Reset ****************** */
 /*
   1. Use a more-intuitive box-sizing model.
@@ -1205,7 +1219,8 @@ li {
 		font-size: var(--h2-font-size);
 		text-align: center;
 		text-transform: capitalize;
-		padding-top: var(--header-height);
+		/* padding-top: var(--header-height); */
+		padding: 6rem 3rem 0;
 		box-sizing: 0 0 5px rgba(0, 0, 0, 0.4);
 		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 		transition: right 0.4s;
@@ -1236,7 +1251,7 @@ li {
 
 	.home-content h1 {
 		/* font-family: var(--font-cursive); */
-		font-size: 2rem;
+		/* font-size: 2rem; */
 		/* line-height: 3.5rem; */
 	}
 	.home .home-img img {
@@ -1250,9 +1265,9 @@ li {
 		align-items: center;
 		text-align: center;
 	}
-	.section-title h2 {
+	/* .section-title h2 {
 		font-size: 1.95rem;
-	}
+	} */
 	.about {
 		padding: 5.5rem 0;
 	}
@@ -1388,10 +1403,13 @@ li {
 		border: 2px solid var(--first-color);
 	}
 	.logo img {
-		width: 7.5rem;
+		width: 6.5rem;
 	}
 	.home .home-content {
 		padding: 0 2rem;
+	}
+	.product-card {
+		width: 18em;
 	}
 	.services-content-description {
 		padding: 1rem 0;
@@ -1400,7 +1418,7 @@ li {
 		padding: 1rem;
 	} */
 	.services-content-description .box .inner {
-		font-size: var(--normal-font-size);
+		/* font-size: var(--normal-font-size); */
 		font-weight: 600;
 		padding: 5px;
 	}
@@ -1438,11 +1456,11 @@ li {
 		padding: 2rem 1rem 7rem;
 		gap: 0.5rem;
 	}
-	.contact .section-title h3 {
+	/* .contact .section-title h3 {
 		font-size: 1.1rem;
-	}
+	} */
 	.contact-data img {
-		width: 7.5rem;
+		width: 6.5rem;
 	}
 	.scroll-up:hover {
 		opacity: 0.2;
