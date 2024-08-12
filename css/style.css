@@ -609,7 +609,7 @@ h6 {
 }
 .services-content-description .box .inner img {
 	/* width: 90px; */
-	width: 5rem;
+	width: 4rem;
 	border-radius: 50%;
 	margin-bottom: 1rem;
 	margin: auto;
@@ -1020,7 +1020,7 @@ form textarea:focus {
 .footer .credit {
 	text-align: center;
 	padding: 1rem 0;
-	color: var(--gray);
+	color: var(--black-color);
 }
 .footer .credit p {
 	font-weight: 500;
@@ -1040,39 +1040,14 @@ form textarea:focus {
 	color: #30c5ff;
 }
 
-/* .footer-iconTop {
-	position: fixed;
-	bottom: -100px;
-	right: 50px;
-	visibility: hidden;
-
-	opacity: 0.7;
-}
-
-.footer-iconTop.active {
-	visibility: visible;
-	bottom: 50px;
-}
-.footer-iconTop.hidden {
-	visibility: hidden;
-}
-
-.footer-iconTop i {
-	color: #000;
-	background: var(--first-color);
-	font-size: var(--small-font-size);
-	padding: 0.9rem 1rem;
-	border-radius: 40%;
-	transition: 0.2s ease;
-}
-
-.footer-iconTop:hover {
-	opacity: 1;
-} */
-
 /* End Footer Section */
 
 /* ========== Start Catalogue Section ========== */
+.catalogue-header-shadow {
+	background-color: var(--white-color);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	transition: all 0.2s ease-in-out;
+}
 .catalogue {
 	width: 100%;
 	padding: 7rem 0 0;
@@ -1162,11 +1137,11 @@ li {
 .scroll-up {
 	position: fixed;
 	right: 1rem;
-	bottom: -20%;
+	bottom: -100px;
 	background-color: var(--first-color);
 	opacity: 0.2;
 	padding: 0.8rem 1rem;
-	border-radius: 45%;
+	border-radius: 50%;
 	z-index: 10;
 	transition: 0.3s;
 }
@@ -1183,8 +1158,38 @@ li {
 
 /* Show scroll */
 .show-scroll {
-	bottom: 12%;
+	bottom: 50px;
 }
+
+/* .footer-iconTop {
+	position: fixed;
+	bottom: -100px;
+	right: 50px;
+	visibility: hidden;
+
+	opacity: 0.7;
+}
+
+.footer-iconTop.active {
+	visibility: visible;
+	bottom: 50px;
+}
+.footer-iconTop.hidden {
+	visibility: hidden;
+}
+
+.footer-iconTop i {
+	color: #000;
+	background: var(--first-color);
+	font-size: var(--small-font-size);
+	padding: 0.9rem 1rem;
+	border-radius: 40%;
+	transition: 0.2s ease;
+}
+
+.footer-iconTop:hover {
+	opacity: 1;
+} */
 
 /* ========= SCROLL BAR ========== */
 ::-webkit-scrollbar {
@@ -1219,7 +1224,7 @@ li {
 		/* font-size: var(--h2-font-size); */
 		/* text-align: center; */
 		/* padding-top: var(--header-height); */
-		padding: 6rem 3rem 0;
+		padding: 6rem 4rem 0;
 		/* box-sizing: 0 0 5px rgba(0, 0, 0, 0.4); */
 		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 		transition: right 0.4s;
@@ -1241,7 +1246,7 @@ li {
 	}
 	.nav-link {
 		font-weight: var(--h1-font-weight);
-		text-transform: uppercase;
+		text-transform: capitalize;
 	}
 	#menu-btn {
 		display: initial;
