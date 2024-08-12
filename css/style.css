@@ -474,7 +474,7 @@ h6 {
 	width: 17em;
 	height: 23.5rem;
 
-	transition: all 0.2s ease-out;
+	transition: all 0.4s ease-in-out;
 }
 .product-card:hover {
 	transform: scale(1.1);
