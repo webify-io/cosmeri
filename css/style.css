@@ -1245,7 +1245,7 @@ li {
 		row-gap: 2.5rem;
 	}
 	.nav-link {
-		font-weight: var(--h1-font-weight);
+		font-weight: 700;
 		text-transform: capitalize;
 	}
 	#menu-btn {
