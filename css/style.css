@@ -130,7 +130,7 @@ h6 {
 	border: 1px solid var(--first-color);
 	border-radius: 50px;
 	font-size: 0.85rem;
-	/* font-weight: 500; */
+	font-weight: 500;
 	text-transform: uppercase;
 	line-height: 1rem;
 	padding: 10px 20px;
@@ -141,7 +141,7 @@ h6 {
 .btn:hover {
 	background-color: var(--gray-dark);
 	color: var(--white-color);
-	/* font-weight: 500; */
+	font-weight: 500;
 }
 .btn-outline {
 	width: 230px;
@@ -164,7 +164,7 @@ h6 {
 	transition: all 0.4s ease-in-out;
 }
 .btn-outline i {
-	margin-right: 1.5rem;
+	margin-right: 1.7rem;
 	font-size: var(--h3-font-size);
 	color: var(--white-color);
 	z-index: 11;
@@ -225,7 +225,7 @@ h6 {
 	text-decoration: none;
 }
 .nav-link {
-	font-size: var(--normal-font-size);
+	/* font-size: var(--normal-font-size); */
 	color: var(--black-color);
 	font-weight: bolder;
 	text-transform: capitalize;
@@ -261,7 +261,7 @@ h6 {
 	color: var(--first-color);
 } */
 #menu-btn {
-	font-size: var(--h2-font-size);
+	font-size: var(--h1-font-size);
 	/* padding: 2px 6px; */
 	/* border: 6px solid transparent; */
 	cursor: pointer;
@@ -1245,8 +1245,7 @@ li {
 		row-gap: 2.5rem;
 	}
 	.nav-link {
-		font-weight: 700;
-		text-transform: capitalize;
+		font-size: var(--h3-font-size);
 	}
 	#menu-btn {
 		display: initial;
